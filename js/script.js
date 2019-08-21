@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var tinggi = window.screen.availHeight - 128;
+    var tinggi = document.documentElement.clientHeight - 64;
     var elems = document.querySelectorAll('.slider');
     var instances = M.Slider.init(elems,{
         indicators : false,
