@@ -11,3 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
         height : tinggi
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {
+        fullwidth: true,
+        autoplay: true
+    });
+});
